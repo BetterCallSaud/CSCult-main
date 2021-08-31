@@ -1,0 +1,29 @@
+#submod {
+    background-color: #23b3ab;
+    color: black;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+
+#submod > h1 {
+    color: white;
+    -webkit-text-stroke: white;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+#submod > h2 {
+    font-size: 3rem;
+}
+
+.anchor h3 {
+    margin: 10px;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+
+.anchor h3:hover {
+    font-size: 2.1rem;
+    transition: 0.4s all;
+}

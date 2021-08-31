@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LandingBody.css";
 
 function LandingBody() {
@@ -13,9 +14,11 @@ function LandingBody() {
         <p>COMMUNITY | THINK TANK | LEADERS</p>
       </div>
       <div className="landingbody__button">
-        <button>
-          <span>Explore</span>
-        </button>
+        <Link to="/dsaweekly">
+          <button>
+            <span>Check out DSAWeekly</span>
+          </button>
+        </Link>
       </div>
     </div>
   );

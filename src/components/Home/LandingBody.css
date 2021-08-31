@@ -22,21 +22,22 @@
 }
 .landingbody__button {
   margin-top: 40px;
+  padding-left: 40px;
 }
 
-.landingbody__button > button {
-  width: 250px;
-  height: 65px;
+.landingbody__button button {
+  width: 350px;
+  height: 95px;
   border: none;
   border-radius: 6px;
 }
-.landingbody__button > button:hover {
+.landingbody__button button:hover {
   cursor: pointer;
   background-color: #2c2c2c;
   color: white;
   transition: all 0.2s;
 }
-.landingbody__button > button > span {
+.landingbody__button button span {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;

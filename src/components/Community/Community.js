@@ -7,7 +7,7 @@ const discordLink = "https://discord.com/invite/8SxAWCPpDM";
 
 function Community() {
   return (
-    <div className="community">
+    <div id="community" className="community">
       <div className="community__mainline">
         <h2>Community</h2>
         <p>

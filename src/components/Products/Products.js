@@ -4,7 +4,7 @@ import CultSpeaks from "./assets/cult-speaks.png";
 
 function Products() {
   return (
-    <div class="products">
+    <div id="products" class="products">
       <h1>Products</h1>
       <p class="products-para">
         Not only are we a community, but a <b>think tank</b>. We focus on

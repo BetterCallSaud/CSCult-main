@@ -30,7 +30,7 @@ const EventToastStyle = {
 
 export default function EventSection() {
 	return (
-		<div className="EventSection section">
+		<div id="events" className="EventSection section">
 			<h1 className="font-g" style={sectionHeadingStyle}>
 				Events
 			</h1>

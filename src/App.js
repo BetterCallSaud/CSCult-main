@@ -19,7 +19,7 @@ import Module6 from './components/Pages/DSA-Weekly/Module6/Module6';
 import Module7 from './components/Pages/DSA-Weekly/Module7/Module7';
 import Module8 from './components/Pages/DSA-Weekly/Module8/Module8';
 
-// import Intro from './components/Pages/DSA-Weekly/Module1/Submodules/Intro';
+import Intro from './components/Pages/DSA-Weekly/Module1/Submodules/Intro';
 // import Mathematics from "./components/Pages/DSA-Weekly/Module1/Submodules/Mathematics";
 // import BitManip from './components/Pages/DSA-Weekly/Module1/Submodules/BitManip';
 
@@ -37,10 +37,10 @@ function Main() {
   return (
     <div className="app">
       <Header />
-      <LandingBody id="#home" />
-      <Community id="#community" />
-      <Events id="#events" />
-      <Products id="#products" />
+      <LandingBody />
+      <Community />
+      <Events />
+      <Products />
       <Footer />
     </div>    
   );
@@ -63,10 +63,10 @@ function App() {
       <Route path="/dsaweekly/module6" component={Module6} exact />
       <Route path="/dsaweekly/module7" component={Module7} exact />
       <Route path="/dsaweekly/module8" component={Module8} exact />
-      {/* <Route path="/dsaweekly/module1/introduction" component={Intro} exact />
-      <Route path="/dsaweekly/module1/mathematics" component={Mathematics} exact />
-      <Route path="/dsaweekly/module1/bit-manipulation" component={BitManip} exact />
-      <Route path="/dsaweekly/module2/recursion" component={Recursion} exact />
+      <Route path="/dsaweekly/module1/introduction" component={Intro} exact />
+      {/* <Route path="/dsaweekly/module1/mathematics" component={Mathematics} exact />
+      <Route path="/dsaweekly/module1/bit-manipulation" component={BitManip} exact /> */}
+      {/* <Route path="/dsaweekly/module2/recursion" component={Recursion} exact />
       <Route path="/dsaweekly/module3/arrays" component={Arrays} exact />
       <Route path="/dsaweekly/module3/strings" component={Strings} exact />
       <Route path="/dsaweekly/module3/sorting" component={Sorting} exact />
