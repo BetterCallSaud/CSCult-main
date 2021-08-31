@@ -1,0 +1,30 @@
+.card {
+    border: 3px solid #23b3ab;
+    border-radius: 5px;
+    width: 12rem;
+    height: 16rem;
+    cursor: pointer;
+}
+.card:hover {
+    background-color: white;
+    transition: 0.4s all;
+}
+
+.card h3 {
+    color: #23b3ab;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 1.5em;
+}
+
+.card p {
+    color: #23b3ab;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.card img {
+    width: 12rem;
+    height: 10rem;
+}

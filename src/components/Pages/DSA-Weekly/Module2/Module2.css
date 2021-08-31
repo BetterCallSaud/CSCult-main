@@ -1,0 +1,54 @@
+.mod2 {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.mod2 p {
+    margin: 0 5rem 5rem 5rem;
+    font-size: 1.5rem;
+}
+
+.mod2 h4 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #23b3ab;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-bottom: 4rem;
+}
+
+.mod2 h1 {
+    font-family: 'Gilroy';
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    font-size: 5rem;
+}
+
+.mod2 h3 {
+    margin-left: 5rem;
+    font-size: 5rem;
+}
+
+.mod2 h3:hover {
+    color: #23b3ab;
+}
+
+.mod2_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 5rem 5rem;
+}
+
+.mod2 .left {
+    font-family: 'Gilroy';
+    font-size: 2rem;
+}
+
+.mod2 .right {
+    width: 50%;
+}
+.mod2 .right img {
+    border: 5px solid #23b3ab;
+    width: 90%;
+}

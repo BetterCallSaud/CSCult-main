@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("../../fonts/gilroy/style.css");
+
+:root {
+  --mont: "Montserrat";
+  --gil: "Gilroy";
+  --green: #23b3ab;
+  --black: #2c2c2c;
+}
+
+.footer {
+  color: white;
+  padding-top: 2em;
+  width: 100%;
+  background-color: #454545;
+  padding-bottom: 5em;
+}
+.main {
+  margin-top: 10px;
+}
+.cscult {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+.cscult h1 {
+  display: flex;
+  align-items: center;
+  font-family: var(--mont);
+  margin-left: 1.5em;
+  font-size: 2.5em;
+}
+.cscult span {
+  color: var(--green);
+}
+.cscult .image img {
+  width: 5em;
+  margin-right: 3em;
+  transition: all 0.3s;
+}
+@keyframes infiniteRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.cscult .image img {
+  animation: infiniteRotate 2s linear infinite;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main ul {
+  list-style-type: none;
+}
+.main h6 {
+  font-size: 16px;
+  font-family: var(--gil);
+  color: #afafaf;
+  letter-spacing: 5px;
+}
+.main li a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--mont);
+}
+.main li a:hover {
+  font-weight: 600;
+  color: var(--green);
+  transition: all 0.2s;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.explore li {
+  padding-top: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.social .first,
+.second,
+.third {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.social img {
+  margin: 0px 10px 0px 10px;
+  padding: 2px;
+  width: 40px;
+  border-radius: 10px;
+}
+.social img:hover {
+  background-color: var(--green);
+}
+#linkedin {
+  width: 50px;
+  padding: 1px;
+}
+#discord {
+  width: 50px;
+}
+#youtube {
+  width: 50px;
+}
+
+.connect {
+  padding-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.buttons button {
+  background-color: white;
+  font-size: 16px;
+  font-family: var(--gil);
+  letter-spacing: 5px;
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: var(--gil);
+  padding-top: 50px;
+  letter-spacing: 5px;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttons button:hover {
+  background-color: var(--black);
+  color: var(--green);
+  transition: all 0.3s;
+}

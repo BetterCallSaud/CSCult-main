@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("../../fonts/gilroy/style.css");
+
+:root {
+  --mont: "Montserrat";
+  --gil: "Gilroy";
+  --green: #23b3ab;
+  --black: #2c2c2c;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.products {
+  background-color: var(--black);
+  color: white;
+  font-family: var(--mont);
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.products h1 {
+  font-family: var(--gil);
+
+  font-size: 3em;
+}
+
+.products h2 {
+  font-family: var(--gil);
+}
+
+.products-para {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.divs-prog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+  padding-bottom: 5em;
+  margin-bottom: 5em;
+}
+
+.divs-prog .leftDiv {
+  margin-left: 13em;
+}
+
+.divs-prog .leftDiv img {
+  margin: 0;
+  height: 80%;
+  width: 15em;
+  transition: all 0.4s;
+}
+.divs-prog .leftDiv img:hover {
+  width: 16em;
+  transition: all 0.4s;
+}
+
+.divs-prog .rightDiv {
+  width: 50%;
+  margin-right: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.divs-prog .rightDiv h2 {
+  font-size: 2em;
+  padding-bottom: 40px;
+}
+
+.divs-prog .rightDiv p {
+  font-size: 1.2em;
+}
+
+.cult-speaks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.cult-speaks .leftDiv {
+  width: 50%;
+  margin-left: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.cult-speaks .leftDiv h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.cult-speaks .leftDiv p {
+  font-size: 1.2em;
+}
+
+.cult-speaks .rightDiv {
+  margin-right: 6em;
+}
+
+.cult-speaks .rightDiv img {
+  cursor: pointer;
+  width: 15em;
+  margin-right: 8em;
+  transition: all 0.4s;
+}
+.cult-speaks .rightDiv img:hover {
+  width: 16em;
+  transition: all 0.4s;
+}

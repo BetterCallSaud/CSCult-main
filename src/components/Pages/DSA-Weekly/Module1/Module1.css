@@ -1,0 +1,53 @@
+.mod {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.mod p {
+    margin: 0 5rem 5rem 5rem;
+    font-size: 1.5rem;
+}
+
+.mod h4 {
+    max-width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #23b3ab;
+    padding: 0.5rem 0 0.5rem 0;
+    margin-bottom: 4rem;
+}
+
+.mod h1 {
+    font-family: 'Gilroy';
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+    font-size: 5rem;
+}
+
+.mod h3 {
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+
+.mod h3:hover {
+    color: #23b3ab;
+}
+
+.mod_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 5rem;
+}
+
+.left {
+    font-family: 'Gilroy';
+    font-size: 2rem;
+}
+
+.right {
+    width: 50%;
+}
+.right img {
+    width: 90%;
+}

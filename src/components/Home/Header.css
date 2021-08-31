@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+  background-color: transparent !important;
+  padding-top: 10px;
+}
+.header__left {
+  margin-left: 50px;
+  background-color: transparent;
+}
+.header__left img {
+  width: 8em;
+}
+.header__right {
+  display: flex;
+  padding: 20px;
+  margin-right: 50px;
+  background-color: transparent;
+}
+
+.header__option {
+  margin: 10px 20px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.header__option:hover {
+  color: #23b3ab;
+  transition: all 0.2s;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
