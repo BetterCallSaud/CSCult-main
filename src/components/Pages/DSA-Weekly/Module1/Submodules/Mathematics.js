@@ -8,32 +8,32 @@ export default function Mathematics() {
                 <h1>Mathematics</h1>
                 <h2>Video Resources:</h2>
                 <div>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=69jsFIMINpI&feature=youtu.be">
+                    <a target="_blank" className="anchor" href="https://www.youtube.com/watch?v=69jsFIMINpI&feature=youtu.be">
                         <h3>Factorials, Trailing Zeroes and Palindromes</h3>
                     </a>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=dyrRM8dTEus&ab_channel=AnujBhaiya">
+                    <a target="_blank" className="anchor" href="https://www.youtube.com/watch?v=dyrRM8dTEus&ab_channel=AnujBhaiya">
                         <h3>Euclid GCD, Prime Numbers & Sieve of Eratosthenes</h3>
                     </a>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=CnPreli2F-E&ab_channel=AnujBhaiya">
+                    <a target="_blank" className="anchor" href="https://www.youtube.com/watch?v=CnPreli2F-E&ab_channel=AnujBhaiya">
                         <h3>Modular Arithmetic</h3>
                     </a>
                 </div><br/><br/>
                 <h2>Text Resources:</h2>
                 <div>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=N89PN_uyelU&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=1">
-                        <h3>Asymptotic Analysis</h3>
+                    <a target="_blank" className="anchor" href="https://www.geeksforgeeks.org/c-program-factorial-number/">
+                        <h3>Factorials</h3>
                     </a>
-                    <a className="anchor" href="https://www.tutorialspoint.com/data_structures_algorithms/algorithms_basics.htm">
-                        <h3>Algorithm Basics</h3>
+                    <a target="_blank" className="anchor" href="https://www.geeksforgeeks.org/euclids-lemma/">
+                        <h3>Euclid's GCD</h3>
                     </a>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=N89PN_uyelU&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=1">
-                        <h3>Asymptotic Analysis</h3>
+                    <a target="_blank" className="anchor" href="https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/">
+                        <h3>Prime Numbers</h3>
                     </a>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=N89PN_uyelU&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=1">
-                        <h3>Asymptotic Analysis</h3>
+                    <a target="_blank" className="anchor" href="https://www.geeksforgeeks.org/sieve-of-eratosthenes/">
+                        <h3>Sieve of Erathosthenes</h3>
                     </a>
-                    <a className="anchor" href="https://www.youtube.com/watch?v=N89PN_uyelU&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=1">
-                        <h3>Asymptotic Analysis</h3>
+                    <a target="_blank" className="anchor" href="https://www.geeksforgeeks.org/modular-arithmetic/">
+                        <h3>Modular Arithmetic</h3>
                     </a>
                 </div>
                 <br/><br/>
