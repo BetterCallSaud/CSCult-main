@@ -31,6 +31,12 @@ export default function BitManip() {
                     </a>
                 </div>
                 <br/><br/>
+                <h2>Challenge Problems:</h2>
+                <div>
+                    <a target="_blank" className="anchor" href="https://docs.google.com/document/d/1r0TIqjcn_bwlIDOfuC5gENOdfTm_YXLRTHDxfMMVBJ8/edit?usp=sharing">
+                        <h3>Bitmanip Challenge Problems</h3>
+                    </a>
+                </div>
             </div>
             <Footer />
         </main>

@@ -37,6 +37,12 @@ export default function Mathematics() {
                     </a>
                 </div>
                 <br/><br/>
+                <h2>Challenge Problems:</h2>
+                <div>
+                    <a target="_blank" className="anchor" href="https://docs.google.com/document/d/1gG_1HH91J2q_7n0RDZD8zMjxbnxqtYrcT732mxq2j-o/edit?usp=sharing">
+                        <h3>Mathematics Challenge Problems</h3>
+                    </a>
+                </div>
             </div>
             <Footer />
         </main>
