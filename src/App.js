@@ -23,7 +23,7 @@ import Intro from './components/Pages/DSA-Weekly/Module1/Submodules/Intro';
 import Mathematics from "./components/Pages/DSA-Weekly/Module1/Submodules/Mathematics";
 import BitManip from './components/Pages/DSA-Weekly/Module1/Submodules/BitManip';
 
-// import Recursion from './components/Pages/DSA-Weekly/Module2/Recursion';
+import Recursion from './components/Pages/DSA-Weekly/Module2/Recursion';
 
 // import Arrays from "./components/Pages/DSA-Weekly/Module3/SubModules/Arrays";
 // import Strings from "./components/Pages/DSA-Weekly/Module3/SubModules/Strings";
@@ -66,8 +66,8 @@ function App() {
       <Route path="/dsaweekly/module1/introduction" component={Intro} exact />
       <Route path="/dsaweekly/module1/mathematics" component={Mathematics} exact />
       <Route path="/dsaweekly/module1/bit-manipulation" component={BitManip} exact />
-      {/* <Route path="/dsaweekly/module2/recursion" component={Recursion} exact />
-      <Route path="/dsaweekly/module3/arrays" component={Arrays} exact />
+      <Route path="/dsaweekly/module2/recursion" component={Recursion} exact />
+      {/* <Route path="/dsaweekly/module3/arrays" component={Arrays} exact />
       <Route path="/dsaweekly/module3/strings" component={Strings} exact />
       <Route path="/dsaweekly/module3/sorting" component={Sorting} exact />
       <Route path="/dsaweekly/module3/searching" component={Searching} exact />
