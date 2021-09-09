@@ -19,6 +19,13 @@ export default function Recursion() {
                     </a>
                 </div>
                 <br/><br/>
+                <h2>Challenge Problems:</h2>
+                <div>
+                    <a target="_blank" className="anchor" href="https://docs.google.com/document/d/1YvhP7SjHgnSMnHQViOEfSb0qlne_Vb5a18zTWjIIIlI/edit?usp=sharing">
+                        <h3>Recursion Challenge Problems</h3>
+                    </a>
+                </div>
+                <br/><br/><br/><br/>
             </div>
             <Footer />
         </main>
