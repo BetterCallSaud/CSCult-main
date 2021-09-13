@@ -9,7 +9,9 @@ export default function Module4() {
     return (
         <main>
             <div className="mod4">
-                <h4>DSAWeekly</h4>
+                <Link to="/dsaweekly">
+                    <h4>DSAWeekly</h4>
+                </Link>
                 <h1>MODULE 4</h1>
                 <div className="mod4_info">
                     <div className="left">

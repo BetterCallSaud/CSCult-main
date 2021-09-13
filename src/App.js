@@ -25,11 +25,11 @@ import BitManip from './components/Pages/DSA-Weekly/Module1/Submodules/BitManip'
 
 import Recursion from './components/Pages/DSA-Weekly/Module2/Recursion';
 
-// import Arrays from "./components/Pages/DSA-Weekly/Module3/SubModules/Arrays";
-// import Strings from "./components/Pages/DSA-Weekly/Module3/SubModules/Strings";
-// import Sorting from "./components/Pages/DSA-Weekly/Module3/SubModules/Sorting";
-// import Searching from "./components/Pages/DSA-Weekly/Module3/SubModules/Searching";
-// import Hashing from "./components/Pages/DSA-Weekly/Module3/SubModules/Hashing";
+import Arrays from "./components/Pages/DSA-Weekly/Module3/Submodules/Arrays";
+import Strings from "./components/Pages/DSA-Weekly/Module3/Submodules/Strings";
+import Sorting from "./components/Pages/DSA-Weekly/Module3/Submodules/Sorting";
+import Searching from "./components/Pages/DSA-Weekly/Module3/Submodules/Searching";
+import Hashing from "./components/Pages/DSA-Weekly/Module3/Submodules/Hashing";
 
 // import Advanced from "./components/Pages/DSA-Weekly/Module8/Advanced";
 
@@ -67,12 +67,12 @@ function App() {
       <Route path="/dsaweekly/module1/mathematics" component={Mathematics} exact />
       <Route path="/dsaweekly/module1/bit-manipulation" component={BitManip} exact />
       <Route path="/dsaweekly/module2/recursion" component={Recursion} exact />
-      {/* <Route path="/dsaweekly/module3/arrays" component={Arrays} exact />
+      <Route path="/dsaweekly/module3/arrays" component={Arrays} exact />
       <Route path="/dsaweekly/module3/strings" component={Strings} exact />
       <Route path="/dsaweekly/module3/sorting" component={Sorting} exact />
       <Route path="/dsaweekly/module3/searching" component={Searching} exact />
       <Route path="/dsaweekly/module3/hashing" component={Hashing} exact />
-      <Route path="/dsaweekly/module8/advanced" component={Advanced} exact /> */}
+      {/* <Route path="/dsaweekly/module8/advanced" component={Advanced} exact /> */}
     </Switch>
   )
 }

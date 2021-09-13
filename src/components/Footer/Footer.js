@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 import hexa from "./assets/greenhexa.png";
 import insta from "./assets/ig.svg";
 import linkedin from "./assets/linkedin.svg";
@@ -11,9 +12,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="cscult">
-        <h1>
-          <span>CS</span>Cult
-        </h1>
+        <Link to="/">
+          <h1>
+            <span>CS</span>Cult
+          </h1>
+        </Link>
         <div className="image">
           <img src={hexa} />
         </div>

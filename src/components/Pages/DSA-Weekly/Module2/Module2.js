@@ -9,7 +9,9 @@ export default function Module2() {
     return (
         <main>
             <div className="mod2">
-                <h4>DSAWeekly</h4>
+                <Link to="/dsaweekly">
+                    <h4>DSAWeekly</h4>
+                </Link>
                 <h1>MODULE 2</h1>
                 <div className="mod2_info">
                     <div className="left">
