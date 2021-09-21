@@ -37,6 +37,8 @@ export default function Module3() {
                     </div>
                 </div>
                 <p>In the third module, we focus on <b>arrays</b> and <b>strings</b>. After we go over these two very important topics, we study some <b>sorting</b> and <b>searching</b> algorithms. Finally, we end the module with <b>hashing.</b></p>
+                <a href="https://docs.google.com/document/d/1i26jl6qI9HnNPBpy3wLakEbqTaD9_qZZJUkFhv0jZ7I/edit?usp=sharing" target="_blank"><h3>Challenge Problems</h3></a>
+                <br/><br/><br/>
             </div>
             <Footer />
         </main>
