@@ -31,7 +31,8 @@ import Sorting from "./components/Pages/DSA-Weekly/Module3/Submodules/Sorting";
 import Searching from "./components/Pages/DSA-Weekly/Module3/Submodules/Searching";
 import Hashing from "./components/Pages/DSA-Weekly/Module3/Submodules/Hashing";
 
-// import Advanced from "./components/Pages/DSA-Weekly/Module8/Advanced";
+import Stacks from "./components/Pages/DSA-Weekly/Module4/Submodules/Stacks";
+import Queues from "./components/Pages/DSA-Weekly/Module4/Submodules/Queues";
 
 function Main() {
   return (
@@ -72,7 +73,8 @@ function App() {
       <Route path="/dsaweekly/module3/sorting" component={Sorting} exact />
       <Route path="/dsaweekly/module3/searching" component={Searching} exact />
       <Route path="/dsaweekly/module3/hashing" component={Hashing} exact />
-      {/* <Route path="/dsaweekly/module8/advanced" component={Advanced} exact /> */}
+      <Route path="/dsaweekly/module4/stacks" component={Stacks} exact />
+      <Route path="/dsaweekly/module4/queues" component={Queues} exact />
     </Switch>
   )
 }
