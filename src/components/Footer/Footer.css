@@ -26,28 +26,15 @@
 .cscult h1 {
   display: flex;
   align-items: center;
+  color: white;
   font-family: var(--mont);
   margin-left: 1.5em;
   font-size: 2.5em;
-}
-.cscult span {
-  color: var(--green);
 }
 .cscult .image img {
   width: 5em;
   margin-right: 3em;
   transition: all 0.3s;
-}
-@keyframes infiniteRotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-.cscult .image img {
-  animation: infiniteRotate 2s linear infinite;
 }
 
 .main {
@@ -84,6 +71,7 @@
 }
 .explore li {
   padding-top: 10px;
+  font-size: 1.5rem;
 }
 
 .social {

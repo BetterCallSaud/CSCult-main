@@ -1,0 +1,45 @@
+.team-container {
+	margin: 5rem 5rem;
+}
+.team-container > h1 {
+	text-align: center;
+	font-size: 7rem;
+	font-family: Gilroy;
+	margin-bottom: 4rem;
+}
+.team-member {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto 1rem;
+}
+.team-member > img {
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.team-member > h1 {
+    font-family: Gilroy;
+	color: dodgerblue;
+}
+.team-member > p {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+	color: mediumvioletred;
+	font-weight: 600;
+}
+.team-member-1 {
+	width: 30rem;
+	height: 25rem;
+}
+.team-member-1 > img {
+	width: 15rem;
+	height: 15rem;
+}
+.team-member-2 {
+	width: 20rem;
+	height: 25rem;
+}
+.team-member-2 > img {
+	width: 15rem;
+	height: 15rem;
+}

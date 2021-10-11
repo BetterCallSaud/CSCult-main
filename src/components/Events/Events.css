@@ -1,40 +1,35 @@
-*,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 div.EventSection {
-  margin-top: 5em;
-  margin-left: 1em;
+  margin-top: 4rem;
+  margin-left: 4rem;
   font-family: 'Gilroy';
   color: white;
-  background-color: #2c2c2c;
 }
 
-.event-wrapper {
-  margin-left: 5em;
+.events-images {
+  display: flex;
+  flex-direction: column;
 }
-.event-wrapper a {
-  cursor: pointer;
-  text-decoration: none;
-  margin-left: 15px;
-  color: white;
-  background-color: #2c2c2c;
+.events-images > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-#github-101 {
-  background-color: #3a75c9;
+.events-images > div > a > img {
+  width: 25rem;
+  height: 25rem;
+  margin: 2rem 5rem;
+  border-radius: 20px;
+  transition: all 0.4s;
 }
-
-#dsa-weekly {
-  cursor: pointer;
-  background-color: #f6a915;
+.events-images > div > p > h2 {
+  font-family: Gilroy;
 }
-#dsa-weekly:hover {
-  background-color: #fdbf4b;
+.events-images > div > p {
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 8rem;
 }
-
-#techio-olympics {
-  background-color: #23b3ab;
+.events-images > div > a > img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
 }

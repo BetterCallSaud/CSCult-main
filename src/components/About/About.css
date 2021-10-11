@@ -1,0 +1,42 @@
+.about-container {
+	margin: 2rem 4rem;
+	margin-bottom: 10rem;
+}
+.about-container > h1 {
+	font-size: 4rem;
+	font-family: "Gilroy";
+}
+
+.about-divs {
+	display: flex;
+}
+.about-left,
+.about-right {
+	flex: 1;
+}
+.about-left > p {
+	font-size: 1.8rem;
+	font-family: "Montserrat";
+}
+.about-right {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.about-right > img {
+    height: 80%;
+	animation: infiniteRotate 2s linear infinite;
+    transition: 1s all;
+}
+.about-right > img:hover {
+    height: 150%;
+    transition: 1s all;
+}
+@keyframes infiniteRotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

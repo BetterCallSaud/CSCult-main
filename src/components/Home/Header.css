@@ -1,39 +1,45 @@
 .header {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
-  z-index: 999;
-  background-color: transparent !important;
-  padding-top: 10px;
+  box-shadow: 0 1px 10px 0 #8386e383
+  ;
 }
 .header__left {
-  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
   background-color: transparent;
+  cursor: pointer;
 }
-.header__left img {
-  width: 8em;
+.header__left > img {
+  width: 3rem;
+  margin: auto 0.5rem;
+}
+.header__left > span {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 2.7rem;
 }
 .header__right {
   display: flex;
-  padding: 20px;
-  margin-right: 50px;
-  background-color: transparent;
+  padding: 1.5rem 0;
+  margin-right: 4rem;
 }
 
 .header__option {
   margin: 10px 20px;
   cursor: pointer;
   font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  transition: all 0.2s;
 }
 
 .header__option:hover {
-  color: #23b3ab;
+  color: #36c7fb
+  ;
   transition: all 0.2s;
-}
-a {
-  color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }

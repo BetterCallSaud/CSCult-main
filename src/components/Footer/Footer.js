@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import hexa from "./assets/greenhexa.png";
+import hexa from "../../image/NewLogo.png";
 import insta from "./assets/ig.svg";
 import linkedin from "./assets/linkedin.svg";
 import youtube from "./assets/yt.svg";
@@ -14,7 +14,7 @@ function Footer() {
       <div className="cscult">
         <Link to="/">
           <h1>
-            <span>CS</span>Cult
+            CSCult
           </h1>
         </Link>
         <div className="image">
@@ -38,6 +38,9 @@ function Footer() {
             <li>
               <a href="/#products">Products</a>
             </li>
+            <li>
+              <a href="/team">Team</a>
+            </li>
           </ul>
         </div>
         <div className="social">
@@ -58,7 +61,7 @@ function Footer() {
             >
               <img id="youtube" src={youtube} />
             </a>
-            <a target="_blank" href="https://discord.com/invite/8SxAWCPpDM">
+            <a target="_blank" href="https://discord.gg/fjkauFJ3jB">
               <img id="discord" src={discord} />
             </a>
           </div>
