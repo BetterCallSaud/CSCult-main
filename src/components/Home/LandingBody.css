@@ -1,6 +1,4 @@
 .landingbody {
-	background-image: url("../../image/desert-footage.mp4");
-	background-size: cover;
 	padding-bottom: 20rem;
 }
 .landingbody > video {
@@ -51,4 +49,36 @@
 	color: white;
 	background-color: #e23ba2;
 	transform: scale(1.2);
+}
+
+@media screen and (max-width: 705px) {
+	.landingbody {
+		padding-bottom: 2rem;
+	}
+	.landingbody > video {
+		height: 100%;
+		position: relative;
+	}
+	.landingbody__div {
+		padding-top: 2rem;
+		padding-left: 2rem;
+	}
+	.landingbody__content > h3 {
+		color: black;
+		font-size: 4rem;
+	}
+	.landingbody__content > p {
+		font-size: 1.8rem;
+	}
+	.landingbody__button {
+		margin: 1rem 0;
+		padding: 0;
+	}
+	.landingbody__button > a > button {
+		width: 10rem;
+		font-size: 1.5rem;
+	}
+	.landingbody__button > a > button:hover {
+		transform: none;
+	}
 }

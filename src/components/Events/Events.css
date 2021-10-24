@@ -1,8 +1,9 @@
-div.EventSection {
-  margin-top: 4rem;
-  margin-left: 4rem;
+.events-container {
+  margin: 4rem;
   font-family: 'Gilroy';
-  color: white;
+}
+.events-container > h1 {
+  font-size: 4rem;
 }
 
 .events-images {
@@ -26,10 +27,38 @@ div.EventSection {
 }
 .events-images > div > p {
   font-size: 1.8rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-right: 8rem;
+  font-family: Montserrat;
 }
 .events-images > div > a > img:hover {
   transform: scale(1.1);
   transition: all 0.4s;
+}
+
+@media screen and (max-width: 705px) {
+  .events-container {
+    margin: 3rem 2rem;
+  }
+  .events-container > h1 {
+    font-size: 3rem;
+  }
+  .events-images > div {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .events-images > div > a > img {
+    width: max-content;
+    margin: 0;
+  }
+  .events-images > div > a >img:hover {
+    transform: none;
+  }
+  .events-images > div > p > h2 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+  .events-images > div > p {
+    font-size: 1.5rem;
+  }
 }

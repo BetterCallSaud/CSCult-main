@@ -43,3 +43,14 @@
 	width: 15rem;
 	height: 15rem;
 }
+
+@media screen and (max-width: 705px) {
+	.team-container > h1 {
+		font-size: 5rem;
+	}
+	.team-members {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}

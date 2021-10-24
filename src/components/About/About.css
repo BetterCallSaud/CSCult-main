@@ -40,3 +40,21 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media screen and (max-width: 705px) {
+	.about-container {
+		margin: 1rem 2rem;
+	}
+	.about-container > h1 {
+		font-size: 3rem;
+	}
+	.about-divs {
+		flex-direction: column;
+	}
+	.about-left > p {
+		font-size: 1.5rem;
+	}
+	.about-right {
+		margin-top: 4rem;
+	}
+}

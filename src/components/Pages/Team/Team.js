@@ -20,7 +20,7 @@ export class Team extends React.Component {
 				<Header />
 				<div className="team-container">
 					<h1>The team that makes it all possible!</h1>
-					<div style={flexStyle}>
+					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896782539140784148/mirrself.png" />
 							<br />
@@ -40,8 +40,8 @@ export class Team extends React.Component {
 							<p>Podcast</p>
 						</div>
 					</div>
-					<div style={flexStyle}>
-                    <div className="team-member team-member-2">
+					<div style={flexStyle} className="team-members">
+						<div className="team-member team-member-2">
 							<img src="https://cdn.discordapp.com/attachments/861992095504924713/896777251549491232/Sujal_Samai.jpg" />
 							<br />
 							<h1>Sujal Samai</h1>
@@ -66,13 +66,13 @@ export class Team extends React.Component {
 							<p>Podcast</p>
 						</div>
 						<div className="team-member team-member-2">
-							<img src="https://media-exp1.licdn.com/dms/image/C4E35AQHa7HANi_lTMQ/profile-framedphoto-shrink_200_200/0/1615543605422?e=1633975200&v=beta&t=M6cQJNSMncmsz-UiFrnuYwOv2CdljaXY6leq8cZz_r0" />
+							<img src="https://cdn.discordapp.com/attachments/877930443473846324/901738296915398706/240702570_1265208573940408_7121647706504007991_n.png" />
 							<br />
 							<h1>Abhilasha Jairath</h1>
 							<p>Podcast</p>
 						</div>
 					</div>
-					<div style={flexStyle}>
+					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896808766736068608/39c44421-6ffe-4bce-9b69-c5a18ebf3e3c.png" />
 							<br />
@@ -99,7 +99,7 @@ export class Team extends React.Component {
 						</div>
 					</div>
 				</div>
-                <Footer />
+				<Footer />
 			</div>
 		);
 	}

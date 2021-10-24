@@ -98,3 +98,32 @@
   color: rgb(43, 204, 137);
   font-weight: bold;
 }
+
+@media screen and (max-width: 705px) {
+  .community {
+    margin: 3rem 2rem;
+  }
+  .community__mainline > h2 {
+    font-size: 3rem;
+  }
+  .community__mainline > p {
+    font-size: 1.5rem;
+  }
+  .server-stats {
+    flex-direction: column;
+  }
+  .community__box {
+    flex-direction: column;
+  }
+  .community__left > img {
+    margin: auto 0;
+    width: 100%;
+  }
+  .community__right {
+    margin: auto 0;
+  }
+  .community__rcontent {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+  }
+}

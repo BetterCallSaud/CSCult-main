@@ -17,6 +17,7 @@
 }
 .main {
   margin-top: 10px;
+  display: flex;
 }
 .cscult {
   display: flex;
@@ -141,4 +142,20 @@
   background-color: var(--black);
   color: var(--green);
   transition: all 0.3s;
+}
+
+@media screen and (max-width: 705px) {
+  .footer > .cscult > a > h1 {
+    margin-left: 0.5rem;
+  }
+  .footer > .image > img {
+    width: 80%;
+    margin-right: 0.5rem !important;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main > * {
+    margin: 2rem 0;
+  }
 }

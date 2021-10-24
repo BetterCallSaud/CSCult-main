@@ -17,7 +17,19 @@
 		#6054ff 60%,
 		#fc34fc
 	);
-  width: fit-content;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+	width: fit-content;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 705px) {
+	.products {
+		margin: 3rem 2rem;
+	}
+	.products > h1 {
+		font-size: 3rem;
+	}
+	.products > h2 {
+		font-size: 4rem;
+	}
 }
