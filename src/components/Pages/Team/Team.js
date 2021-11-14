@@ -95,7 +95,7 @@ export class Team extends React.Component {
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896813275583512686/c7bff1eb-80ea-4c71-b5b3-e79b89ded615.png" />
 							<br />
 							<h1>Gatha Verma</h1>
-							<p>Graphics</p>
+							<p>Content Creation</p>
 						</div>
 					</div>
 				</div>

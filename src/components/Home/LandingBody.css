@@ -1,6 +1,7 @@
 .landingbody {
 	padding-bottom: 20rem;
 }
+
 .landingbody > video {
 	position: absolute;
 	width: 100%;
@@ -9,6 +10,7 @@
 	padding-top: 10rem;
 	padding-left: 6rem;
 	position: relative;
+	padding-bottom: 10rem;
 }
 .landingbody__content > h3 {
 	color: white;

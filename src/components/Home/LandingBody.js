@@ -13,7 +13,8 @@ function LandingBody() {
 						<br />
 						largest community
 					</h3>
-					<p>We are EXPLORERS, ARTISTS, VISIONARIES!</p>
+					<p style={{fontSize: '3rem'}}>Exploring the Future</p>
+					<p>WE ARE 🎨ARTISTS, 🚀VISIONARIES, 💡INVENTORS, 🔭EXPLORERS!</p>
 				</div>
 				<div className="landingbody__button">
 					<a target="_blank" href="https://bit.ly/CSCultBrochure">
