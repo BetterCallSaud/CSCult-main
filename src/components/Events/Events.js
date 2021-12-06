@@ -12,9 +12,10 @@ export default function Events() {
 					</a>
 					<p>
 						<h2>Crypto Session</h2>
-						This session-cum-workshop was hosted by <b>Saud Hashmi, the
-						Founder of CSCult</b>, in collaboration with MUACM, on the
-						very <b>basics of cryptocurrencies</b>. The session not only
+						This session-cum-workshop was hosted by{" "}
+						<b>Saud Hashmi, the Founder of CSCult</b>, in
+						collaboration with MUACM, on the very{" "}
+						<b>basics of cryptocurrencies</b>. The session not only
 						covered what cryptocurrencies are, but it discovered the
 						history of currency in general, how traditional fiat
 						money has its own demerits; and how cryptocurrencies can
@@ -81,6 +82,56 @@ export default function Events() {
 								Mobile Development Workshop
 							</u>
 						</a>
+					</p>
+				</div>
+				<div>
+					<a href="https://www.linkedin.com/events/masteringinstagramandlinkedinfo6858602063425794048/">
+						<img src="https://cdn.discordapp.com/attachments/866725616630628352/916227418166009866/Mastering_Instagram_and_LinkedIn_for_Personal_and_Brand_Growth_1.png" />
+					</a>
+					<p>
+						<h2>
+							Mastering Instagram and LinkedIn for Personal and
+							Brand Growth
+						</h2>
+						A panel discussion on mastering personal and
+						co-branding. Learn to use the power of Instagram and
+						LinkedIn to reach organic growth, with a proper plan and
+						consistent content creation. - A panel discussion to
+						master personal and co-branding - A panel of
+						entrepreneurs, marketing professionals & social media
+						managers. - Emphasis on platforms like Instagram and
+						LinkedIn. - The outcome would be a better understanding
+						of personal and brand growth. The speakers were:{" "}
+						<b>
+							<a
+								target="_blank"
+								style={{ textDecoration: "underline" }}
+								href="https://lnkd.in/ehiP59y2"
+							>
+								Sidhant Sidana
+							</a>
+						</b>
+						,{" "}
+						<b>
+							<a
+								target="_blank"
+								style={{ textDecoration: "underline" }}
+								href="https://lnkd.in/eRAPtgCq"
+							>
+								Anjali Pawar
+							</a>
+						</b>{" "}
+						and{" "}
+						<b>
+							<a
+								target="_blank"
+								style={{ textDecoration: "underline" }}
+								href="https://lnkd.in/eKnvMurn"
+							>
+								Purna Jain
+							</a>
+						</b>
+						.
 					</p>
 				</div>
 			</div>

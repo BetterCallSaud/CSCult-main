@@ -37,16 +37,16 @@ function Community() {
 				</p>
 				<div className="server-stats">
 					<div>
+						<h4>TOTAL COMMUNITY</h4>
+						<h1>1000+</h1>
+					</div>
+					<div>
 						<h4>SERVER MEMBERS</h4>
-						<h1>400+</h1>
+						<h1>500+</h1>
 					</div>
 					<div>
 						<h4>DAILY ACTIVE USERS</h4>
 						<h1>50+</h1>
-					</div>
-					<div>
-						<h4>PRO & FUN ROLES</h4>
-						<h1>26</h1>
 					</div>
 					<div>
 						<h4>SERVER CHANNELS</h4>
