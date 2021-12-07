@@ -99,15 +99,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<h1
-				style={{
-					textAlign: "center",
-					marginTop: "4rem",
-					color: "white",
-					fontFamily: "Montserrat",
-					fontWeight: "400",
-				}}
-			>
+			<h1 id="footer-contact">
 				Mail us at{" "}
 				<b>
 					<a

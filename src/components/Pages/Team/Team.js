@@ -59,9 +59,7 @@ export class Team extends React.Component {
 							<div className="team-social">
 								<a target="_blank" href="mail:ananyalathi@gmail.com"><img src={EmailSocial} /></a>
 								<a target="_blank" href="https://instagram.com/ananyalathi19"><img src={IGSocial} /></a>
-								<a target="_blank" href=""><img src={LinkedinSocial} /></a>
-								<a target="_blank" href=""><img src={TwitterSocial} /></a>
-								<a target="_blank" href=""><img src={GithubSocial} /></a>
+								<a target="_blank" href="https://www.linkedin.com/in/ananya-lathi-826778b3"><img src={LinkedinSocial} /></a>
 							</div>
 						</div>
 					</div>
@@ -121,9 +119,9 @@ export class Team extends React.Component {
 							<p>Podcast</p>
 							<div className="team-social">
 								<a target="_blank" href="mail:abhilashajairath7@gmail.com"><img src={EmailSocial} /></a>
-								<a target="_blank" href="https://instagram.com/abhilasha_jairath"><img src={IGSocial} /></a>
+								<a target="_blank" href="https://instagram.com/abhilasha__jairath"><img src={IGSocial} /></a>
 								<a target="_blank" href="https://linkedin.com/in/abhilasha-jairath"><img src={LinkedinSocial} /></a>
-								<a target="_blank" href="https://twitter.com/Abhilashajairath"><img src={TwitterSocial} /></a>
+								<a target="_blank" href="https://twitter.com/Abhi_Jairath"><img src={TwitterSocial} /></a>
 							</div>
 						</div>
 					</div>

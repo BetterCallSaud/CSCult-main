@@ -11,7 +11,7 @@ function LandingBody() {
 					<h3>
 						We are building Indore's
 						<br />
-						largest community
+						largest Internet community
 					</h3>
 					<p
 						style={{

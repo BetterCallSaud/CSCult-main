@@ -144,6 +144,14 @@
   transition: all 0.3s;
 }
 
+#footer-contact {
+  text-align: center;
+  margin-top: 4rem;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 705px) {
   .footer > .cscult > a > h1 {
     margin-left: 0.5rem;
@@ -157,5 +165,9 @@
   }
   .main > * {
     margin: 2rem 0;
+  }
+  #footer-contact {
+    font-size: 1.5rem;
+    margin: auto 1rem;
   }
 }
