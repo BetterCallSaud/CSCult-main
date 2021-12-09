@@ -25,7 +25,7 @@ export class Team extends React.Component {
 			<div>
 				<Header />
 				<div className="team-container">
-					<h1>The team that makes it all possible!</h1>
+					<h1 className="heading1">The team that makes it all possible!</h1>
 					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896782539140784148/mirrself.png" />
@@ -52,7 +52,7 @@ export class Team extends React.Component {
 							</div>
 						</div>
 						<div className="team-member team-member-1">
-							<img src="https://media-exp1.licdn.com/dms/image/C4E03AQGH4wr1Il62tw/profile-displayphoto-shrink_200_200/0/1611720940962?e=1639612800&v=beta&t=BMC3WJppKyVvmxG40BjJHt_OAlqPl4SutWZ4y_hHkSI" />
+							<img src="https://cdn.discordapp.com/attachments/877930443473846324/918399450093854770/1611720940962.png" />
 							<br />
 							<h1>Ananya Lathi</h1>
 							<p>Podcast</p>
@@ -62,8 +62,6 @@ export class Team extends React.Component {
 								<a target="_blank" href="https://www.linkedin.com/in/ananya-lathi-826778b3"><img src={LinkedinSocial} /></a>
 							</div>
 						</div>
-					</div>
-					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/861992095504924713/896777251549491232/Sujal_Samai.jpg" />
 							<br />
@@ -77,6 +75,9 @@ export class Team extends React.Component {
 								<a target="_blank" href="https://github.com/SujalSamai"><img src={GithubSocial} /></a>
 							</div>
 						</div>
+					</div>
+					<div style={flexStyle} className="team-members">
+						
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/866725616630628352/896768257384665158/Square_Fit_2021811165818975.jpg" />
 							<br />
@@ -101,7 +102,7 @@ export class Team extends React.Component {
 							</div>
 						</div>
 						<div className="team-member team-member-1">
-							<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFakwuji0xf0g/profile-displayphoto-shrink_200_200/0/1619958982808?e=1639612800&v=beta&t=bq4jGJYPkQM1_9ErsQ9MgWfKMpZgzKn6y7-kAaKTm2E" />
+							<img src="https://cdn.discordapp.com/attachments/877930443473846324/918399482381623316/1619958982808.png"/>
 							<br />
 							<h1>Manan Soni</h1>
 							<p>Podcast</p>
@@ -112,6 +113,8 @@ export class Team extends React.Component {
 								<a target="_blank" href="https://github.com/manansoni77"><img src={GithubSocial} /></a>
 							</div>
 						</div>
+					</div>
+					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/901738296915398706/240702570_1265208573940408_7121647706504007991_n.png" />
 							<br />
@@ -124,8 +127,6 @@ export class Team extends React.Component {
 								<a target="_blank" href="https://twitter.com/Abhi_Jairath"><img src={TwitterSocial} /></a>
 							</div>
 						</div>
-					</div>
-					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896808766736068608/39c44421-6ffe-4bce-9b69-c5a18ebf3e3c.png" />
 							<br />
@@ -149,16 +150,18 @@ export class Team extends React.Component {
 								<a target="_blank" href="https://twitter.com/lifeofsandeeps"><img src={TwitterSocial} /></a>
 							</div>
 						</div>
+					</div>
+
+					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
-							<img src="https://media.discordapp.net/attachments/877930443473846324/917377851005730847/poorva.png" />
+							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896813275583512686/c7bff1eb-80ea-4c71-b5b3-e79b89ded615.png" />
 							<br />
-							<h1>Poorva Jain</h1>
+							<h1>Gatha Verma</h1>
 							<p>Graphics</p>
 							<div className="team-social">
-								<a target="_blank" href="mail:poorvajain1208@gmail.com"><img src={EmailSocial} /></a>
-								<a target="_blank" href="https://instagram.com/poorva_jain1208"><img src={IGSocial} /></a>
-								<a target="_blank" href="https://linkedin.com/in/poorvajain1208"><img src={LinkedinSocial} /></a>
-								<a target="_blank" href="https://twitter.com/poorva_jain1208"><img src={TwitterSocial} /></a>
+								<a target="_blank" href="mail:gatha986@gmail.com"><img src={EmailSocial} /></a>
+								<a target="_blank" href="https://instagram.com/gathaverma"><img src={IGSocial} /></a>
+								<a target="_blank" href="https://linkedin.com/in/gatha-v-bb3403181"><img src={LinkedinSocial} /></a>
 							</div>
 						</div>
 						<div className="team-member team-member-1">
@@ -173,14 +176,27 @@ export class Team extends React.Component {
 							</div>
 						</div>
 						<div className="team-member team-member-1">
-							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896813275583512686/c7bff1eb-80ea-4c71-b5b3-e79b89ded615.png" />
+							<img src="https://media.discordapp.net/attachments/877930443473846324/917377851005730847/poorva.png" />
 							<br />
-							<h1>Gatha Verma</h1>
+							<h1>Poorva Jain</h1>
 							<p>Graphics</p>
 							<div className="team-social">
-								<a target="_blank" href="mail:gatha986@gmail.com"><img src={EmailSocial} /></a>
-								<a target="_blank" href="https://instagram.com/gathaverma"><img src={IGSocial} /></a>
-								<a target="_blank" href="https://linkedin.com/in/gatha-v-bb3403181"><img src={LinkedinSocial} /></a>
+								<a target="_blank" href="mail:poorvajain1208@gmail.com"><img src={EmailSocial} /></a>
+								<a target="_blank" href="https://instagram.com/poorva_jain1208"><img src={IGSocial} /></a>
+								<a target="_blank" href="https://linkedin.com/in/poorvajain1208"><img src={LinkedinSocial} /></a>
+								<a target="_blank" href="https://twitter.com/poorva_jain1208"><img src={TwitterSocial} /></a>
+							</div>
+						</div>
+						<div className="team-member team-member-1">
+							<img src="https://cdn.discordapp.com/attachments/877930443473846324/918398545403469864/ce7cb7e3-e96e-4cd7-8857-30577516a508.png"/>
+							<br />
+							<h1>Mradul Gupta</h1>
+							<p>Web Developer</p>
+							<div className="team-social">
+								<a target="_blank" href="mail:mradul.gpt1@gmail.com"><img src={EmailSocial} /></a>
+								<a target="_blank" href="https://www.linkedin.com/in/mradul-gupta-b5b33221b/"><img src={LinkedinSocial} /></a>
+								<a target="_blank" href="https://twitter.com/_Mradul_Gupta"><img src={TwitterSocial} /></a>
+								<a target="_blank" href="https://github.com/mradul-gpt"><img src={GithubSocial} /></a>
 							</div>
 						</div>
 					</div>
