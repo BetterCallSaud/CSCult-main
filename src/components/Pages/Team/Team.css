@@ -1,17 +1,21 @@
+.heading1{
+	margin-left: 3rem;
+}
 .team-container {
-	margin: 5rem 5rem;
+	margin: 5rem 5rem 5rem 2rem;
 }
 .team-container > h1 {
 	text-align: center;
 	font-size: 7rem;
 	font-family: Gilroy;
-	margin-bottom: 4rem;
+	margin-bottom: 4rem; 
 }
 .team-member {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: auto 1rem;
+
 }
 .team-member > img {
 	border-radius: 50%;

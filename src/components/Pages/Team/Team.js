@@ -25,7 +25,7 @@ export class Team extends React.Component {
 			<div>
 				<Header />
 				<div className="team-container">
-					<h1>The team that makes it all possible!</h1>
+					<h1 className="heading1">The team that makes it all possible!</h1>
 					<div style={flexStyle} className="team-members">
 						<div className="team-member team-member-1">
 							<img src="https://cdn.discordapp.com/attachments/877930443473846324/896782539140784148/mirrself.png" />
