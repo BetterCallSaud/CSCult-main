@@ -6,11 +6,11 @@ export default function Events() {
 			<h1>Events</h1>
 			<br />
 			<div className="events-images">
-				<div>
-					<a href="https://www.linkedin.com/events/cryptoworkshop6814090740566646785/">
+				<div className="row">
+					<a href="https://www.linkedin.com/events/cryptoworkshop6814090740566646785/" className="col-lg-4">
 						<img src="https://cdn.discordapp.com/attachments/866725616630628352/896767903725133824/Untitled_design_2.png" />
 					</a>
-					<p>
+					<p className="col-lg-7">
 						<h2>Crypto Session</h2>
 						This session-cum-workshop was hosted by{" "}
 						<b>Saud Hashmi, the Founder of CSCult</b>, in
@@ -24,11 +24,11 @@ export default function Events() {
 						unleashed by cryptocurrencies!
 					</p>
 				</div>
-				<div>
-					<a href="https://www.linkedin.com/events/github101byyashsehgal6816642727569084417/">
+				<div className="row">
+					<a href="https://www.linkedin.com/events/github101byyashsehgal6816642727569084417/" className="col-lg-4">
 						<img src="https://cdn.discordapp.com/attachments/866725616630628352/896767911228764180/Untitled_design_1.png" />
 					</a>
-					<p>
+					<p className="col-lg-7">
 						<h2>GitHub 101</h2>
 						One of the most successful sessions organized by CSCult
 						for beginners and open-source developers. Yash Sehgal,
@@ -60,11 +60,11 @@ export default function Events() {
 						</a>
 					</p>
 				</div>
-				<div>
-					<a href="https://www.linkedin.com/events/mobiledevelopmentworkshop6828609010107727873/">
+				<div className="row">
+					<a href="https://www.linkedin.com/events/mobiledevelopmentworkshop6828609010107727873/" className="col-lg-4">
 						<img src="https://media.discordapp.net/attachments/866725616630628352/896767912659021864/Crypto_Session.png" />
 					</a>
-					<p>
+					<p className="col-lg-7">
 						<h2>Mobile Development Workshop</h2>
 						Another popular event organized by CSCult, where Mihir
 						Pesswani, our first ever <b>AI {"<Div Head/>"}</b>, took
@@ -84,11 +84,11 @@ export default function Events() {
 						</a>
 					</p>
 				</div>
-				<div>
-					<a href="https://www.linkedin.com/events/masteringinstagramandlinkedinfo6858602063425794048/">
+				<div className="row">
+					<a href="https://www.linkedin.com/events/masteringinstagramandlinkedinfo6858602063425794048/" className="col-lg-4">
 						<img src="https://cdn.discordapp.com/attachments/866725616630628352/916227418166009866/Mastering_Instagram_and_LinkedIn_for_Personal_and_Brand_Growth_1.png" />
 					</a>
-					<p>
+					<p className="col-lg-7">
 						<h2>
 							Mastering Instagram and LinkedIn for Personal and
 							Brand Growth

@@ -24,6 +24,8 @@
 }
 .events-images > div > p > h2 {
   font-family: Gilroy;
+  font-size: 2.5rem;
+  padding-bottom: 4%;
 }
 .events-images > div > p {
   font-size: 1.5rem;
@@ -50,15 +52,21 @@
   .events-images > div > a > img {
     width: max-content;
     margin: 0;
+    position: relative; right: 20px; 
   }
   .events-images > div > a >img:hover {
     transform: none;
   }
   .events-images > div > p > h2 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     margin-top: 2rem;
   }
   .events-images > div > p {
     font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 705px) {
+  .events-images > div > p{
+    position: relative; right: 3rem;
   }
 }
