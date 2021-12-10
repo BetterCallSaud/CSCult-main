@@ -1,8 +1,8 @@
 .heading1{
-	margin-left: 3rem;
+	padding-left: 2rem;
 }
 .team-container {
-	margin: 5rem 5rem 5rem 2rem;
+	margin: 5rem;
 }
 .team-container > h1 {
 	text-align: center;
@@ -51,7 +51,8 @@
 
 @media screen and (max-width: 705px) {
 	.team-container > h1 {
-		font-size: 5rem;
+		font-size: 4rem;
+		padding-left: 5rem;
 	}
 	.team-members {
 		flex-direction: column;
@@ -61,4 +62,8 @@
 	.team-member {
 		margin: 3rem auto;
 	}
+	.team-container {
+		margin: 5rem 5rem 5rem -2rem;
+	}
+
 }
