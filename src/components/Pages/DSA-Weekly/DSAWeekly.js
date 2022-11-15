@@ -63,10 +63,10 @@ export default function DSAWeekly() {
                 We begin our journey from the basics of CP and end the programme with the most advanced topics like DP.
             </p>
             <br />
-            <div className="row">
+            <div id="row1">
                 {rowOne}
             </div>
-            <div className="row">
+            <div id="row2">
                 {rowTwo}
             </div>
             </main>
